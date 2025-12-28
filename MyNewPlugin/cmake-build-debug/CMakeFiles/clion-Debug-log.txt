@@ -1,0 +1,26 @@
+"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -S C:\Users\jack\Documents\GitHub\MyNewPlugin\MyNewPlugin -B C:\Users\jack\Documents\GitHub\MyNewPlugin\MyNewPlugin\cmake-build-debug
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+CMake Error at CMakeLists.txt:10 (include):
+  include could not find requested file:
+
+    C:/Users/jack/Documents/GitHub/MyNewPlugin/MyNewPlugin/../../iPlug2.cmake
+
+
+CMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "FindiPlug2.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "iPlug2", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "iPlug2" with any
+  of the following names:
+
+    iPlug2Config.cmake
+    iplug2-config.cmake
+
+  Add the installation prefix of "iPlug2" to CMAKE_PREFIX_PATH or set
+  "iPlug2_DIR" to a directory containing one of the above files.  If "iPlug2"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
